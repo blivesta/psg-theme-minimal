@@ -1,6 +1,6 @@
-# psg-theme-minimal [![Build Status](https://travis-ci.org/blivesta/psg-theme-minimal.svg)](https://travis-ci.org/blivesta/psg-theme-minimal)
+# psg-theme-minimal [![npm version](https://img.shields.io/npm/v/psg-theme-minimal.svg?style=flat-square)](https://www.npmjs.com/package/psg-theme-minimal)
 
-Minimal theme of  [postcss-style-guide](https://github.com/blivesta/postcss-style-guide)
+Minimal theme of [postcss-style-guide](https://github.com/blivesta/postcss-style-guide)
 
 ## Install
 
