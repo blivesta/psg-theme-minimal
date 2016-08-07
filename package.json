@@ -2,15 +2,14 @@
   "name": "psg-theme-minimal",
   "version": "0.1.0",
   "description": "Minimal: Theme for postcss-style-guide",
-  "main": "index.js",
   "scripts": {
     "dev": "postcss -c test/postcss.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "postcss-cli": "^2.5.2",
-    "postcss-import": "^8.1.2",
     "postcss-custom-properties": "^5.0.1",
+    "postcss-import": "^8.1.2",
     "postcss-style-guide": "^0.13.0"
   },
   "repository": {
