@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+h1[id],
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id],
+p[id],
+.psg-colorPalette,
+.psg-menu,
+.psg-componentTitle,
+.psg-footer {
+  font-family: -apple-system, "BlinkMacSystemFont", "Helvetica Neue", Helvetica, "Roboto", Arial, sans-serif;
+}
+
+.psg-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.psg-menu {
+  width: 240px;
+  height: 100%;
+  padding: 3rem 2rem;
+  border-right: 1px solid #ddd;
+  overflow-y: scroll;
+}
+
+.psg-projectName,
+.psg-componentTitle {
+  font-size: 2rem;
+}
+
+.psg-projectName {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+.psg-updatedTime {
+  font-size: .75rem;
+  margin-top: 0;
+  margin-bottom: 1.75rem;
+}
+
+.psg-componentList {
+  padding-left: 1rem;
+}
+
+.psg-componentList-item {
+  display: block;
+  padding: .5rem 0;
+}
+
+.psg-main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 0%;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.psg-container,
+.psg-footer {
+  margin: 3rem 0;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.psg-component,
+.psg-footer {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.psg-componentTitle {
+  margin: 3rem 0;
+}
+
+.psg-contents-html > pre,
+.psg-contents-rule > pre {
+  margin: 2rem 0;
+  overflow: auto;
+  background-color: #f6f6f6;
+  padding: 1rem;
+  position: relative;
+}
+
+hr.psg-separator {
+  margin: 4rem 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.psg-colorPalette {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.psg-colorBox {
+  width: 278px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+}
+
+.psg-colorBox-sample {
+  height: 160px;
+}
+
+.psg-colorBox-color,
+.psg-colorBox-name {
+  font-size: .875rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.psg-colorBox-color {
+  padding-top: 1rem;
+}
+
+.psg-colorBox-name {
+  padding-bottom: 1rem;
+}
+
+.psg-footer {
+  font-size: .875rem;
+  padding-bottom: 2.5rem;
+}

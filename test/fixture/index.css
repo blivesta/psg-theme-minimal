@@ -1,0 +1,11 @@
+@import "./button";
+
+/* @start color */
+:root {
+  --red: #e23b00;
+  --blue: #3f526b;
+  --black: #000;
+  --background: #faf8f5;
+}
+
+/* @end color */
